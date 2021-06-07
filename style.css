@@ -1,0 +1,25 @@
+* {
+    background-color: #888;
+    font-size:30px;
+}
+.button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(11, 144, 206);
+    background: linear-gradient(rgb(11, 144, 206), rgb(3, 86, 124));
+    box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: transparent;
+
+}
+.button:hover {
+    background: rgb(0, 175, 250);
+}
